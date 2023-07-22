@@ -1,10 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jacques+Francois+Shadow&family=Lato&family=Roboto:ital@1&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jacques+Francois+Shadow&family=Lato&family=Roboto:ital@1&display=swap');
-
-
-
-:root{
-    --fonts: 'Jacques Francois', serif;
+:root {
+  --fonts: "Jacques Francois", serif;
 }
 * {
   margin: 0;
@@ -27,10 +24,10 @@
 }
 .social i {
   color: #aaaaaa;
-  width: 1.875rem;
-  height: 1.875rem;
+  width: 1.875vw;
+  height: 1.9vh;
 
-  padding: .61rem .61rem;
+  padding: 0.61vh 0.61vw;
 }
 
 .logo {
@@ -43,34 +40,89 @@
   border-radius: 9.21875rem;
   width: 8.0625rem;
   height: 8.0625rem;
- 
-
 }
 
-.name{
-
-display: flex;
-justify-content: center;
-align-items: center;
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.name h1{
-color: #FFF;
-font-family:var(--fonts);
-font-size: 2.85vw;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-align: center;
-width: 38vw;
-height: 8.8125vh;
-
+.name h1 {
+  color: rgba(240, 234, 225, 0.829);
+  font-family: var(--fonts);
+  font-size: 2.85vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  width: 38vw;
+  height: 8.8125vh;
 }
-/* nav bar*/ 
+/* nav bar*/
 
-hr{
+hr {
   margin-top: 1vh;
-   opacity: 0.2;
-   text-shadow: 2px 5px 5px rgba(8, 1, 1, 0.826);
-   
+  opacity: 0.2;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: inline;
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+}
 
+nav ul li {
+  text-decoration: none;
+  display: inline;
+  font-family: var(--fonts);
+  font-size: 20px;
+  background: transparent;
+  font-weight: 400;
+  line-height: 3.877vh;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(253, 242, 221, 0.95);
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: purple;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.container img {
+  opacity: .8;
+  width: 50vw;
+  height: 55vh;
+  border-radius: 155px 0px 155px 0px;
+  box-shadow: 5px 4px 4px 2px rgba(241, 240, 238, 0.557);
+  border: solid 2px rgb(35, 32, 27);
+  
+}
+.container p {
+  position: absolute;
+  width: 40vw;
+  left: 50%;
+  top:200px;
+  font-family: var(--fonts);
+  font-size: 15px;
+  font-weight: 400;
+  color: #f0ecec;
+  line-height: 30px;
+
+  opacity: 0.6;
+  text-align:center;
+  transform: translate(-50%, -50%);
 }
