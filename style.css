@@ -52,10 +52,11 @@ body{
 
 .name {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.name h1 {
+.name h1  {
   color: rgba(240, 234, 225, 0.829);
   font-family: var(--fonts);
   font-size: 2.85vw;
@@ -65,6 +66,22 @@ body{
   text-align: center;
   width: 38vw;
   height: 8vh;
+}
+.name h2{
+ 
+    color: rgba(240, 234, 225, 0.829);
+    font-family: var(--fonts);
+    font-size: 2.85vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    width: 38vw;
+    height: 8vh;
+  }
+ a{
+  text-decoration: none;
+  
 }
 /* nav bar*/
 
