@@ -135,7 +135,7 @@ ul li:hover {
 .container p {
   position: absolute;
   width: 40vw;
-  left: 50%;
+  left: 40%;
   top: 200px;
   font-family: var(--fonts);
   font-size: 16px;
@@ -159,7 +159,7 @@ footer h5{
 }
 footer h6{
   color: wheat;
-  
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
