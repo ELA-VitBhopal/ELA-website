@@ -147,3 +147,20 @@ ul li:hover {
   text-align: justify;
   transform: translate(-50%, -50%);
 }
+footer{
+  padding:  20px;
+}
+footer h5{
+  color: wheat;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer h6{
+  color: wheat;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

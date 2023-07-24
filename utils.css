@@ -5,14 +5,13 @@
   flex-direction: row;
   gap: 10%;
   padding-top: 30px;
- 
 }
 
 .members {
   width: 26vw;
-  height:21vh;
+  height: 21vh;
   margin-bottom: 1vh;
-  border-radius:60px;
+  border-radius: 60px;
   background: #32313171;
   display: flex;
   flex-direction: row;
@@ -25,13 +24,13 @@
 .members h2 {
   width: 35.6vw;
   height: 12vh;
-  top:53vh;
-  left:21vw;
+  top: 53vh;
+  left: 21vw;
   font-family: var(--fonts);
   color: whitesmoke;
-  font: size 1.6vw;;
+  font: size 1.6vw;
   font-weight: 400;
-  line-height:2.6vw;
+  line-height: 2.6vw;
   letter-spacing: 0em;
   text-align: center;
   background-color: transparent;
@@ -44,7 +43,7 @@
   background: transparent;
   border-radius: 50%;
 }
-.members h2 span{
+.members h2 span {
   font-family: var(--fonts);
   color: whitesmoke;
   font-size: 1vw;
@@ -54,6 +53,40 @@
   background-color: transparent;
 }
 
-#huge{
+#huge {
   font-size: 1.302vw;
+}
+/*Blog Page */
+.superblog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10%;
+  padding-top: 40px;
+
+}
+.blogdiv img{
+  width: 25vw;
+  height: 35vh;
+  opacity: 0.6;
+  top: 270px;
+  left: 239px;
+  border-radius: 50px 175px 50px 50px;
+  padding: 10px;
+  box-shadow: 8px 8px 8px 0px rgba(170, 170, 170, 1);
+
+  
+  
+}
+.followus img {
+  width: 25vw;
+  height: 35vh;
+  top: 270px;
+  left: 239px;
+  opacity: 5;
+  border-radius: 50px 175px 50px 50px;
+  padding: 20px;
+  box-shadow: 6px 6px 6px 0px rgba(170, 170, 170, 1);
+
 }
