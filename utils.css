@@ -5,14 +5,14 @@
   flex-direction: row;
   gap: 10%;
   padding-top: 30px;
-  border-radius: 55px;
+ 
 }
 
 .members {
   width: 26vw;
   height:21vh;
   margin-bottom: 1vh;
-  border-radius: 53px 53px 53px 53px;
+  border-radius:60px;
   background: #32313171;
   display: flex;
   flex-direction: row;
