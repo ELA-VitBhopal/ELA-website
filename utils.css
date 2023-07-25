@@ -9,6 +9,7 @@
 
 .members {
   width: 26.3vw;
+  aspect-ratio:1/1;
   height: 21vh;
   margin-bottom: 1vh;
   border-radius: 60px;
@@ -44,6 +45,7 @@
 }
 .members img {
   width: 20.12vw;
+  aspect-ratio: 1/1;
   height: 19vh;
   left: 4.2vw;
   background: transparent;
@@ -76,7 +78,7 @@
   width: 25vw;
   height: 35vh;
   opacity: 0.4;
-  top: 270px;
+  top: 260px;
   left: 239px;
   border-radius: 50px 175px 50px 50px;
   padding: 10px;
@@ -99,7 +101,7 @@
   width: 20vw;
   height: 20vh;
   left: 50%;
-  top: 150px;
+  top: 130px;
   font-family: var(--fonts);
   font-size: 20px;
   font-weight: 400;
@@ -110,5 +112,72 @@
   text-align: center;
 
   border-radius: 50px 175px 50px 50px;
+  transform: translate(-50%, -50%);
+}
+
+/* magazine page*/
+.magazine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*event page */
+.superevent{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10%;
+
+  padding-top: 40px;
+
+}
+.eventdiv img{
+  width: 25vw;
+  height: 35vh;
+  opacity: 0.4;
+  top: 260px;
+  left: 239px;
+  border-radius: 50px 50px 40px 40px;
+  padding: 10px;
+  box-shadow: 8px 8px 8px 0px wheat;
+}
+.normal{
+  position: absolute;
+  width: 22vw;
+  height: 20vh;
+  left: 50%;
+  top: 130px;
+  font-family: var(--fonts);
+  font-size: 4vw;
+  font-weight: 400;
+  color:whitesmoke;
+  line-height: 20vh;
+  opacity: 5;
+  background: transparent;
+  text-align: center;
+z-index: -1;
+  border-radius: 40px 40px 40px 40px;
+  transform: translate(-50%, -50%);
+  
+}
+.big{
+  position: absolute;
+  width: 22vw;
+  height: 20vh;
+  left: 50%;
+  top: 130px;
+  font-family: var(--fonts);
+  font-size: 3vw;
+  font-weight: 400;
+  color:whitesmoke;
+  line-height: 20vh;
+  opacity: 5;
+  background: transparent;
+  text-align: center;
+z-index: -1;
+  border-radius: 40px 40px 40px 40px;
   transform: translate(-50%, -50%);
 }
