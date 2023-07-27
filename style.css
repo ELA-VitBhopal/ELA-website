@@ -178,7 +178,7 @@ footer h6 {
   border-radius: 9px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  z-index: 1;
+  z-index: 199;
 
 
 }
@@ -193,4 +193,72 @@ footer h6 {
   font-size: 50px;
   z-index: 1;
   background: transparent;
+}
+
+.contact{
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+margin: 20px;
+background: transparent;
+
+
+}
+.contact h2{
+  width:16.6vw;
+height: 6.7vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 50px;
+color: white;
+ 
+
+}
+.platform{
+  margin: 20px;
+  width: 22vw;
+height: 53vh;
+top: 159px;
+left: 226px;
+border-radius: 15px;
+background: rgba(217, 217, 217, 1);
+gap: 10%;
+display: inline;
+}
+.media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vh;
+  flex-direction: row;
+  background-color: transparent;
+  left: 50% ;
+  
+}
+.media i{ 
+  background: transparent;
+   font-size: 1.2vw;
+  
+}
+.media h3{
+  background: transparent;
+  width: 10vw;
+  left: 50%;
+ font-weight: 999;
+ font-family: var(--fonts);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.platform a{
+  color: #000;
+}
+
+.platform a:hover{
+  color: purple;
 }
