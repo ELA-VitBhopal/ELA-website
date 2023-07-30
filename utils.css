@@ -76,7 +76,7 @@
 }
 .blogdiv img {
   width: 25vw;
-  height: 35vh;
+  height: 32vh;
   opacity: 0.4;
   top: 260px;
   left: 239px;
@@ -85,15 +85,14 @@
   box-shadow: 8px 8px 8px 0px rgba(170, 170, 170, 1);
 }
 .followus img {
-  width: 25vw;
-  height: 35vh;
+  width: 26vw;
+  height: 30vh;
   top: 270px;
   left: 239px;
   opacity: 5;
   border-radius: 50px 175px 50px 50px;
   padding: 20px;
-
-  box-shadow: 6px 6px 6px 0px rgba(170, 170, 170, 1);
+  box-shadow: 8px 8px 8px 0px rgba(170, 170, 170, 1);
 }
 
 .blogdiv p {
@@ -124,7 +123,7 @@
 
 /*event page */
 .superevent{
-
+  transition: all 0.6s ease-in-out; 
   display: flex;
   justify-content: center;
   align-items: center;
