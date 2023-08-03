@@ -124,7 +124,7 @@ ul li:hover {
   align-items: center;
 }
 .container img {
-  opacity: 0.7;
+  opacity: 0.2;
   width: 49vw;
   height: 55vh;
   border-radius: 155px 0px 155px 0px;
@@ -138,11 +138,11 @@ ul li:hover {
   top: 200px;
   font-family: var(--fonts);
   font-size: 16px;
-  font-weight: 400;
-  color: rgb(222, 207, 241);
+  font-weight: 500;
+  color: rgb(255, 255, 255);
   line-height: 30px;
-
-  opacity: 0.6;
+  z-index: -1;
+  opacity: 1;
   text-align: justify;
   transform: translate(-50%, -50%);
 }
