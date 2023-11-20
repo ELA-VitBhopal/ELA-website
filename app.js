@@ -9,3 +9,10 @@ openPopupButton.addEventListener('click', () => {
 closePopupButton.addEventListener('click', () => {
     popup.style.display = 'none';
 });
+
+
+// Wait for 4 seconds and then remove the spinner
+setTimeout(function() {
+    var spinnerContainer = document.querySelector('.spinner-container');
+    spinnerContainer.style.display = 'none';
+  }, 4000);

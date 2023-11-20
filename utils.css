@@ -77,7 +77,7 @@
 .blogdiv img {
   width: 25vw;
   height: 32vh;
-  opacity: 0.4;
+  opacity: 0.3;
   top: 260px;
   left: 239px;
   border-radius: 50px 175px 50px 50px;
@@ -106,7 +106,7 @@
   font-weight: 400;
   color: rgb(254, 254, 254);
   line-height: 20vh;
-  opacity: 0.7;
+  z-index: -1;
   background: transparent;
   text-align: center;
 
