@@ -15,7 +15,7 @@
   border-radius: 60px;
   background: transparent;
   display: flex;
-  border: 3px rgba(245, 222, 179, 0.658) solid;
+  border: 3px purple solid;
   box-shadow:3px 3px 3px 3px rgba(236, 233, 230, 0.527);
   flex-direction: row;
   justify-content: left;
@@ -42,6 +42,7 @@
   text-align: center;
   background: transparent;
   border-radius: 40px;
+
 }
 .members img {
   width: 20.12vw;
@@ -71,10 +72,11 @@
   align-items: center;
   flex-direction: row;
   gap: 10%;
-
+  
   padding-top: 40px;
 }
 .blogdiv img {
+  border: 2px purple solid;
   width: 25vw;
   height: 32vh;
   opacity: 0.3;
@@ -82,7 +84,7 @@
   left: 239px;
   border-radius: 50px 175px 50px 50px;
   padding: 10px;
-  box-shadow: 8px 8px 8px 0px rgba(170, 170, 170, 1);
+  box-shadow: 8px 8px 8px 0px rgb(232, 117, 232);
 }
 .followus img {
   width: 26vw;
@@ -141,7 +143,7 @@
   left: 239px;
   border-radius: 50px 50px 40px 40px;
   padding: 10px;
-  box-shadow: 8px 8px 8px 0px wheat;
+  box-shadow: 8px 8px 8px 0px purple;
 }
 .normal{
   position: absolute;
