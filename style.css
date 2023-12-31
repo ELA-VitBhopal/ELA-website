@@ -123,6 +123,7 @@ ul li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 .container img {
   opacity: 0.2;
